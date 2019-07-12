@@ -1,0 +1,4 @@
+body{
+    background: url('../img/hojas.jpg');
+    background-attachment: fixed; /*Propiedad para que no se nos mueva la pantalla*/
+}
