@@ -1,0 +1,16 @@
+body{
+    background: url('../img/rojo.jpg'); /*Cargar la imagen ruta de la imagen*/
+    background-attachment: fixed; /*Propiedad para que no se nos mueva la pantalla*/
+}
+
+#logo{
+    background: #CA3413;    
+}
+
+#menu ul li:hover{ /*Cuando pase el cursor por encima con el efecto hover*/
+    background: #CA3413;
+}
+
+.button-more{
+    background: #CA3413;
+}

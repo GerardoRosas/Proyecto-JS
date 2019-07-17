@@ -1,0 +1,17 @@
+body{
+    background: url('../img/cielo.jpg'); /*Cargar la imagen ruta de la imagen*/
+    background-attachment: fixed; /*Propiedad para que no se nos mueva la pantalla*/
+    
+}
+
+#logo{
+    background: #1f87c4;    
+}
+
+#menu ul li:hover{ /*Cuando pase el cursor por encima con el efecto hover*/
+    background: #1f87c4;
+}
+
+.button-more{
+    background: #1f87c4;
+}
