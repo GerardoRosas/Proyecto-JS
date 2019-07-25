@@ -199,3 +199,24 @@ footer{
 #to-blue{
     background: #1f87c4;
 }
+
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+#logout{
+    font-family: 'Segoe UI';
+    background: #235E3D;
+    padding: 5px;
+    cursor: pointer;
+    width: 25%;
+    height: 30%;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+}
