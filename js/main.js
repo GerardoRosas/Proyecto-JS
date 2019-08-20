@@ -66,7 +66,7 @@ $(document).ready(function(){
         theme.attr("href", "css/blue.css");
     });
 
-        //Scroll arriba d ela web
+        //Scroll arriba de la web
     $(".subir").click(function(e){
         e.preventDefault();
         $('html, body').animate({
@@ -97,6 +97,22 @@ $(document).ready(function(){
             location.reload();
         })
     }
+
+    //Acordeon
+    if(window.location.href.indexOf('about') > -1){
+        $('#acordeon').accordion();
+    }
+    
+
+    //Reloj
+    if(window.location.href.indexOf('reloj') > -1){
+        setInterval(function(){
+            var reloj = moment().format("hh:mm:ss");
+            $('#reloj').html(reloj);
+        }, 1000)
+
+    }
+    
     
 
 });
