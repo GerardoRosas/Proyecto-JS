@@ -112,6 +112,15 @@ $(document).ready(function(){
         }, 1000)
 
     }
+
+    //Validar contacto
+
+    if(window.location.href.indexOf('contact') > -1){
+        $.validate({
+            lang = "es"
+        });
+        
+    }
     
     
 
